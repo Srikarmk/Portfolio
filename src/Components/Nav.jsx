@@ -5,7 +5,6 @@ const Nav = () => {
             <h1 className='w-[40%] text-xl'>SrikarMK</h1>
         <ul className='flex justify-around w-[60%] text-xl font-semibold'>
             <li className="hover:text-blue-500"><a href="/#home"> Home </a></li>
-            <li className="hover:text-blue-500"><a href="/#about">About</a></li>
             <li className="hover:text-blue-500"><a href="/#skills">Skills</a></li>
             <li className="hover:text-blue-500"><a href="/#projects">Projects</a></li>
         </ul>
