@@ -7,6 +7,7 @@ const Nav = () => {
             <li className="hover:text-[#3a86ff]"><a href="/#home"> Home </a></li>
             <li className="hover:text-[#3a86ff]"><a href="/#skills">Skills</a></li>
             <li className="hover:text-[#3a86ff]"><a href="/#projects">Projects</a></li>
+            <li className="hover:text-[#3a86ff]"><a href="/#blogs">Blogs</a></li>
         </ul>
         </div>
     </div>
