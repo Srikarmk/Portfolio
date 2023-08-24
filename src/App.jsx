@@ -9,7 +9,7 @@ function App() {
   return(
     <div>
       <Nav className="sticky"></Nav>
-    <div className='portbg'>
+    <div className='portbg overflow-x-hidden'>
         <Home></Home>
         <Skills></Skills>
         <Projects></Projects>

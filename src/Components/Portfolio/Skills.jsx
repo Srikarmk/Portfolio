@@ -11,13 +11,13 @@ import supabase from "../../assets/supabase.svg"
 import tailwind from "../../assets/tailwindcss.svg"
 const Skills = () => {
   return (
-    <div id="skills" className="pl-5 mb-20">
+    <div id="skills" className="pl-5 mb-20 overflow-x-hidden">
       <h1 className="text-white text-5xl font-bold mb-10 flex justify-center">Skills</h1>
       <div className="text-white mb-10 space-y-20">
         {/* Web Development  */}
         <div className="space-y-10">
           <h1 className="text-3xl mb-5 flex justify-center">Web Development</h1>
-          <ul className="flex justify-evenly items-center">
+          <ul className="grid grid-cols-2 gap-5 md:flex md:justify-evenly md:items-center">
             <li className="flex flex-col items-center space-y-3"><FontAwesomeIcon icon={faHtml5} className="fa-5x text-orange-500 hover:text-[#3a86ff]" /><span>HTML</span></li>
             <li className="flex flex-col items-center space-y-3"><FontAwesomeIcon icon={faCss3Alt} className="fa-5x text-blue-500 hover:text-[#3a86ff]" /><span>CSS</span></li>
             <li className="flex flex-col items-center space-y-3"><FontAwesomeIcon icon={faJs} className="fa-5x text-yellow-500 hover:text-[#3a86ff]" /><span>JavaScript</span></li>
@@ -32,7 +32,7 @@ const Skills = () => {
 
         <div className="space-y-10">
           <h1 className="text-3xl mb-5 flex justify-center ">App Development</h1>
-          <ul className="flex justify-evenly items-center">
+          <ul className="grid grid-cols-2 gap-5 md:flex md:justify-evenly md:items-center">
             <li className="flex flex-col items-center space-y-3"><FontAwesomeIcon icon={faReact} className="fa-5x text-blue-400 hover:text-[#3a86ff]" /><span>React Native</span></li>
             <li className="flex flex-col items-center space-y-3"><img src={expo} width={70}/><span>Expo</span></li>
           </ul>
@@ -41,7 +41,7 @@ const Skills = () => {
         {/* Languages and Databases  */}
         <div className="space-y-10">
           <h1 className="text-3xl mb-5 flex justify-center">Programming Languages and Databases</h1>
-          <ul className="flex justify-evenly items-center">
+          <ul className="grid grid-cols-2 gap-5 md:flex md:justify-evenly md:items-center">
           <li className="flex flex-col items-center space-y-3"><img src={c} width={70}></img><span>C</span></li>
           <li className="flex flex-col items-center space-y-3"><img src={cpp} width={70}></img><span>C++</span></li>
           <li className="flex flex-col items-center space-y-3"><img src={py} width={70}></img><span>Python</span></li>
