@@ -14,7 +14,7 @@ const Home = () => {
             <h1 className="text-2xl md:text-5xl font-bold md:font-extrabold ">Hi , I am M.K.Sai Srikar</h1>
             <p className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white  text-2xl md:text-3xl text-white font-bold w-[100%] md:w-[40%]">Full Stack Developer</p>
 
-            <button className="bg-white text-black w-[100px] h-10 resume"><a href="https://drive.google.com/file/d/19AcKFfZKZnnfzPCcL97ftBPLipdUbh8q/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></button>
+            <button className="bg-white text-black w-[100px] h-10 resume"><a href="https://drive.google.com/file/d/1g8KzGR4-ffNqdzaQpR1gSS8JBeKWbZoi/view?usp=drive_link" target="_blank" rel="noreferrer">Resume</a></button>
             </div>
             <div className="flex justify-around md:flex md:justify-between md:w-[50%] pt-10">
               <a href="https://github.com/Srikarmk" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className="fa-3x hover:text-[#3a86ff]" /></a>
