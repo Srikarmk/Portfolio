@@ -36,25 +36,13 @@ const Nav = () => {
             
         </div>
         {isOpen && (
-    <div className="mobile-nav z-20 relative md:hidden mt-2 py-2">
-      <Link to="/" className="flex justify-center px-4 py-2 hover:bg-blue-500 hover:text-white">
-        Home
-      </Link>
-      <Link to="/courses" className="flex justify-center px-4 py-2 hover:bg-blue-500 hover:text-white">
-        Courses
-      </Link>
-      <Link to="/community" className="flex justify-center px-4 py-2 hover:bg-blue-500 hover:text-white">
-        Community
-      </Link>
-      <Link to="/mentor" className="flex justify-center px-4 py-2 hover:bg-blue-500 hover:text-white">
-        Mentorships
-      </Link>
-      <Link to="/careers" className="flex justify-center px-4 py-2 hover:bg-blue-500 hover:text-white">
-        Career
-      </Link>
-      <a href="#" className="flex justify-center px-4 py-2 hover:bg-blue-500 hover:text-white">
-        About us
-      </a>
+    <div className="mobile-nav z-20 relative md:hidden mt-2 py-2 bg-white">
+  
+      <a href="/#home" className="flex justify-center px-4 py-2 hover:bg-blue-500 hover:text-white"> Home </a>
+      <a href="/#skills" className="flex justify-center px-4 py-2 hover:bg-blue-500 hover:text-white"> Skills </a>
+      <a href="/#projects" className="flex justify-center px-4 py-2 hover:bg-blue-500 hover:text-white"> Projects </a>
+      <a href="/#blogs" className="flex justify-center px-4 py-2 hover:bg-blue-500 hover:text-white"> Blogs </a>
+      
     </div>
   )}
     </div>
