@@ -1,4 +1,4 @@
-import profpic from "../../assets/profpic.png";
+import profpic from "../../assets/profpic_.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXTwitter , faTelegram,faLinkedin,faGithub } from "@fortawesome/free-brands-svg-icons";
 const Home = () => {
