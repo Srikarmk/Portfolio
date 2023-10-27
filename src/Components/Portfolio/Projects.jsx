@@ -1,11 +1,11 @@
 import deccls from "../../assets/decentraclasses.png";
 import supa from "../../assets/supa.png";
-import wigo from "../../assets/wigo.png";
+// import wigo from "../../assets/wigo.png";
 import tribecrafts from "../../assets/tribecrafts.png";
 import humantales from "../../assets/humantales.png";
-import ifp from "../../assets/ifp.png";
+// import ifp from "../../assets/ifp.png";
 import spherespin from "../../assets/spherespin.png";
-import leanprep from "../../assets/leanprep.png";
+// import leanprep from "../../assets/leanprep.png";
 import traverse from "../../assets/traverse.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
