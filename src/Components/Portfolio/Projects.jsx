@@ -10,6 +10,7 @@ import traverse from "../../assets/traverse.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import link from "../../assets/arrow.svg";
+import YoutubeGallery from "../../assets/YoutubeGallery.png";
 const Projects = () => {
   return (
     <div id="projects" className="pl-5 mb-10 overflow-x-hidden">
@@ -228,6 +229,46 @@ const Projects = () => {
             </a>
             <a
               href="https://github.com/Srikarmk/Traverse"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faGithub}
+                className="fa-3x hover:text-white"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Row 3 */}
+      <div className="md:flex justify-evenly mb-20">
+        <div className="w-[90%] mb-5 md:w-[30%] bg-blue-300 shadow-[5px_5px_0px_0px_rgba(255,255,255)] p-5">
+          <img
+            src={YoutubeGallery}
+            alt="Youtube Gallery"
+            width={500}
+            className="border-4 border-slate-500 mb-5"
+          />
+          <h1 className="text-2xl font-semibold mb-5">Youtube Gallery</h1>
+          <p className="mb-5">
+            Keep track of the valuable videos you wanna watch later!
+          </p>
+          <div className="flex space-x-10">
+            <a
+              href="https://youtube-gallery-save.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="p-3 flex justify-between items-center space-x-2 border-2 shadow-[5px_5px_0px_0px_rgba(255,255,255,0.4)] hover:shadow-[3px_3px_0px_0px_rgba(255,255,255,0.4)]">
+                <span>Visit Site</span>
+                <span className="mt-1">
+                  <img src={link} alt="" width={15} />
+                </span>
+              </button>
+            </a>
+            <a
+              href="https://github.com/Srikarmk/Youtube-Gallery "
               target="_blank"
               rel="noreferrer"
             >
