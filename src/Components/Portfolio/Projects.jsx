@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import link from "../../assets/arrow.svg";
 import YoutubeGallery from "../../assets/YoutubeGallery.png";
+import VideoTrans from "../../assets/VideoTrans.png";
 const Projects = () => {
   return (
     <div id="projects" className="pl-5 mb-10 overflow-x-hidden">
@@ -276,6 +277,36 @@ const Projects = () => {
                 icon={faGithub}
                 className="fa-3x hover:text-white"
               />
+            </a>
+          </div>
+        </div>
+        {/* Video Summary */}
+        <div className="w-[90%] mb-5 md:w-[30%] bg-blue-300 shadow-[5px_5px_0px_0px_rgba(255,255,255)] p-5">
+          <img
+            src={VideoTrans}
+            alt="VideoTrans"
+            width={500}
+            className="border-4 border-slate-500 mb-5"
+          />
+          <h1 className="text-2xl font-semibold mb-5">
+            {" "}
+            Youtube Video Transcript Summarization{" "}
+          </h1>
+          <p className="mb-5">
+            A Simple Youtube Video Summarizer for grasping topics quickly
+          </p>
+          <div className="flex space-x-10">
+            <a
+              href="https://colab.research.google.com/drive/1ZUeQIed40oCS28ybOMd-nLDgA84hJbLJ?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="p-3 flex justify-between items-center space-x-2 border-2 shadow-[5px_5px_0px_0px_rgba(255,255,255,0.4)] hover:shadow-[3px_3px_0px_0px_rgba(255,255,255,0.4)]">
+                <span>Notebook</span>
+                <span className="mt-1">
+                  <img src={link} alt="" width={15} />
+                </span>
+              </button>
             </a>
           </div>
         </div>
